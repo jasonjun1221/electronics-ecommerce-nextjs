@@ -25,7 +25,7 @@ export default function PromoSection() {
             We have everything you need to make your home office a productive workspace. Shop our collection of office furniture and
             accessories.
           </p>
-          <Button className="mt-10 text-md bg-emerald-600 p-7 font-semibold text-white" onClick={() => router.push("/shop")}>
+          <Button className="mt-10 bg-emerald-600 p-7 font-medium text-white" onClick={() => router.push("/shop")}>
             Shop Collection
           </Button>
         </div>
