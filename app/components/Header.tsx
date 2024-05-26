@@ -61,13 +61,13 @@ export default function Header() {
 
           <NavbarItem>
             <Link href="/" className="p-2 text-gray-400 hover:text-gray-500">
-              <MagnifyingGlassIcon className="h-6 w-6" />
+              <MagnifyingGlassIcon className="h-7 w-7" />
             </Link>
           </NavbarItem>
           <NavbarItem>
             <Link href="/cart" className="group -m-2 flex items-center p-2">
-              <Badge className="h-5 w-5 border border-red-500 bg-red-500 text-white" content={50} shape="circle" size="sm">
-                <ShoppingCartIcon className="h-6 w-6 flex-shrink-0 text-gray-400 group-hover:text-gray-500" />
+              <Badge className="border border-red-500 bg-red-500 text-white" content={50} shape="circle" size="sm">
+                <ShoppingCartIcon className="h-7 w-7 text-gray-400 group-hover:text-gray-500" />
               </Badge>
             </Link>
           </NavbarItem>
