@@ -3,7 +3,7 @@
 import { CalendarDaysIcon, HandRaisedIcon } from "@heroicons/react/24/outline";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { subscriptionSchema } from "../schemas/userSchema";
+import { subscriptionSchema } from "./schemas/userSchema";
 import { Input, Button } from "@nextui-org/react";
 
 export default function Newsletter() {
@@ -47,7 +47,7 @@ export default function Newsletter() {
               </Button>
             </form>
           </div>
-          <dl className="grid gap-x-8 gap-y-10 grid-cols-2 pt-2">
+          <dl className="grid grid-cols-2 gap-x-8 gap-y-10 pt-2">
             <div className="flex flex-col items-start">
               <div className="rounded-md p-2 ring-1 ring-black/50">
                 <CalendarDaysIcon className="h-6 w-6" />

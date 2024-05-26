@@ -1,7 +1,7 @@
 "use client";
 
-import { Button } from "@nextui-org/react";
 import Image from "next/image";
+import { Button } from "@nextui-org/react";
 import { useRouter } from "next/navigation";
 
 const images = [
@@ -25,7 +25,7 @@ export default function PromoSection() {
             We have everything you need to make your home office a productive workspace. Shop our collection of office furniture and
             accessories.
           </p>
-          <Button className="mt-10 bg-emerald-600 p-7 font-medium text-white" onClick={() => router.push("/shop")}>
+          <Button className="text-md mt-10 bg-emerald-600 p-7 font-medium text-white" onClick={() => router.push("/shop")}>
             Shop Collection
           </Button>
         </div>

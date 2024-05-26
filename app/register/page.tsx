@@ -29,7 +29,7 @@ export default function RegisterPage() {
   }
 
   return (
-    <div className="mt-4 mb-48 flex min-h-full flex-1 select-none flex-col justify-center">
+    <div className="mb-48 mt-4 flex min-h-full flex-1 select-none flex-col justify-center">
       <div className="mx-auto mt-10 w-full max-w-sm ">
         <h2 className="py-4 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">Create an account</h2>
         <form className="space-y-6" onSubmit={handleSubmit(onSubmit)}>
@@ -69,7 +69,7 @@ export default function RegisterPage() {
             {...register("phone")}
           />
 
-          <Button type="submit" className="flex w-full text-sm font-medium bg-emerald-600 py-6 text-white">
+          <Button type="submit" className="flex w-full bg-emerald-600 py-6 text-sm font-medium text-white">
             Register
           </Button>
         </form>

@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function OrderSummary() {
   return (
     <section className="flex-1 space-y-6">
-      <div className="space-y-4 rounded-lg border border-gray-200 shadow-sm p-6">
+      <div className="space-y-4 rounded-lg border border-gray-200 p-6 shadow-sm">
         <p className="text-xl font-semibold">Order summary</p>
 
         <div className="space-y-4">

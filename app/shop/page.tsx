@@ -114,11 +114,11 @@ const sortBy = [
 
 function ShopPage() {
   return (
-    <section className="py-8 mx-auto max-w-screen-xl">
+    <section className="mx-auto max-w-screen-xl py-8">
       <div className="flex items-baseline justify-between">
-        <h1 className="font-semibold text-2xl">Catergory</h1>
+        <h1 className="text-2xl font-semibold">Catergory</h1>
 
-        <div className="flex items-center w-52">
+        <div className="flex w-52 items-center">
           <Select label="Sort By" defaultSelectedKeys={[1]} startContent={<FunnelIcon className="h-6 w-6 text-gray-500" />}>
             {sortBy.map((s) => (
               <SelectItem key={s.id} value={s.id}>

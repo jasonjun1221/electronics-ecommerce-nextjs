@@ -31,7 +31,7 @@ export default function LoginPage() {
   const [isVisible, setIsVisible] = useState(false);
 
   return (
-    <div className="mt-6 mb-48 flex select-none justify-center">
+    <div className="mb-48 mt-6 flex select-none justify-center">
       <div className="mx-auto mt-10 w-full max-w-sm">
         <h2 className="py-4 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">Sign in to your account</h2>
         <form className="space-y-6" onSubmit={handleSubmit(onSubmit)}>
@@ -52,15 +52,15 @@ export default function LoginPage() {
             errorMessage={errors.password?.message}
             endContent={
               isVisible ? (
-                <EyeIcon className="h-6 w-6 my-1 text-gray-500 cursor-pointer" onClick={() => setIsVisible(!isVisible)} />
+                <EyeIcon className="my-1 h-6 w-6 cursor-pointer text-gray-500" onClick={() => setIsVisible(!isVisible)} />
               ) : (
-                <EyeSlashIcon className="h-6 w-6 my-1 text-gray-500 cursor-pointer" onClick={() => setIsVisible(!isVisible)} />
+                <EyeSlashIcon className="my-1 h-6 w-6 cursor-pointer text-gray-500" onClick={() => setIsVisible(!isVisible)} />
               )
             }
             {...register("password")}
           />
 
-          <Button type="submit" className="flex w-full text-md bg-emerald-600 py-6 text-white text-sm font-medium ">
+          <Button type="submit" className="text-md flex w-full bg-emerald-600 py-6 text-sm font-medium text-white ">
             Sign in
           </Button>
         </form>
