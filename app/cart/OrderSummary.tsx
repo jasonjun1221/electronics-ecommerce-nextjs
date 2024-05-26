@@ -43,7 +43,7 @@ export default function OrderSummary() {
         </div>
       </div>
 
-      <div className="rounded-lg border border-gray-200 p-4 shadow-sm">
+      <div className="rounded-lg border border-gray-200 p-6 shadow-sm">
         <form className="space-y-4">
           <Input
             type="text"
