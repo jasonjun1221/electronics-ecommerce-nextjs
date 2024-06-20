@@ -1,6 +1,6 @@
 {
-  "name": "electronics-ecommerce-web-app-zappify-nextjs-postgresql",
-  "version": "0.1.0",
+  "name": "electronics-ecommerce-nextjs",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",

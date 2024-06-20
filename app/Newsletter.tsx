@@ -3,7 +3,7 @@
 import { CalendarDaysIcon, HandRaisedIcon } from "@heroicons/react/24/outline";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { subscriptionSchema } from "./schemas/userSchema";
+import { subscriptionSchema } from "../schemas/userSchema";
 import { Input, Button } from "@nextui-org/react";
 
 export default function Newsletter() {

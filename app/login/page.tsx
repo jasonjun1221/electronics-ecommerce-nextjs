@@ -5,7 +5,7 @@ import { useState } from "react";
 import { Input, Button } from "@nextui-org/react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { loginSchema } from "../schemas/userSchema";
+import { loginSchema } from "../../schemas/userSchema";
 import { EyeIcon, EyeSlashIcon } from "@heroicons/react/24/outline";
 
 interface LoginFormValues {
